@@ -21,6 +21,7 @@ function  ValidateFields (event){
 
 
   if (n1 > 5 || n1 < 1 || n2 < 1 || n2 > 5){
+    resul.style.color = 'red'
     resul.textContent = "Por favor verifique los datos ingresados"
   }else if (name.value === null || name.value === ''){
     resul.textContent = "Ingresa tu nombre"
